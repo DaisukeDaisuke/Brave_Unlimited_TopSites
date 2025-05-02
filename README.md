@@ -19,11 +19,11 @@ After:
    `chrome://flags/#extensions-on-chrome-urls`  
    → Set to **Enabled** and restart Brave.
 
-   > [!CAUTION]  
-   > ⚠️ **Security Warning**  
-   > Enabling this flag allows extensions to run on internal Brave pages like the New Tab Page.  
-   > This can expose sensitive features such as password managers or settings manipulation.  
-   > **Only install extensions you trust.**
+> [!CAUTION]  
+> ⚠️ **Security Warning**  
+> Enabling this flag allows extensions to run on internal Brave pages like the New Tab Page.  
+> This can expose sensitive features such as password managers or settings manipulation.  
+> **Only install extensions you trust.**
 
 2. **Download the latest version:**  
    [Download ZIP](https://github.com/DaisukeDaisuke/Brave_Unlimited_TopSites/archive/refs/heads/main.zip)
