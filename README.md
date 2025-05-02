@@ -10,12 +10,17 @@ After:
 
 ## installing
 
+1. Go to `chrome://flags/#extensions-on-chrome-urls` and enable extensions-on-chrome-urls
 
-1. Download the latest version from the following URL and unzip it:  
+> [!CAUTION]  
+> By turning on extensions-on-chrome-urls, you open yourself up to password manager reading/injection, attacks on important browser private functions, and other serious security issues.
+Only enable extensions you trust.  
+
+2. Download the latest version from the following URL and unzip it:  
 https://github.com/DaisukeDaisuke/Brave_Unlimited_TopSites/archive/refs/heads/main.zip
-2. Launch Brave, open Settings and click Extensions => Manage Extensions `brave://extensions/`  
-3. Turn on Developer Mode in the upper left, click Load unpackaged extension, and open the downloaded extension folder  
-4. You no longer have to worry about this Widget 12 limitation
+3. Launch Brave, open Settings and click Extensions => Manage Extensions `brave://extensions/`  
+4. Turn on Developer Mode in the upper left, click Load unpackaged extension, and open the downloaded extension folder  
+5. You no longer have to worry about this Widget 12 limitation
 
 ![Image](https://github.com/user-attachments/assets/ccf6b3e3-59d3-4e28-ac76-461000f2efad)  
 
