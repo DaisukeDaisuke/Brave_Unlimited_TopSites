@@ -6,7 +6,7 @@
     --grid-columns: initial !important;
 }
 
-[class^="GridPagesContainer-sc-"] .List-sc-170h0bt {
+[class^="GridPagesContainer-sc-"] > [class*="List-sc-"]  {
     display: contents !important;
 }
 
