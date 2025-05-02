@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Brave NewTab - Unlimited Top Sites",
+  "version": "1.0",
+  "description": "Brave's new tab (NTPv2) now removes the limit on the number of top sites displayed and supports wrapping widgets.",
+  "content_scripts": [
+    {
+      "matches": ["chrome://newtab/*"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[class^="GridPagesContainer-sc-"] {
+    max-width: none !important;
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    --grid-columns: initial !important;
+}
+
+[class^="GridPagesContainer-sc-"] .List-sc-170h0bt {
+    display: contents !important;
+}
+
+/* 画面が広いときは、折り返しは維持しつつ、1段の最大幅を制限する */
+@media screen and (min-width: 870px) {
+    [class^="GridPagesContainer-sc-"] {
+        display: grid !important;
+        grid-template-columns: repeat(auto-fill, var(--grid-column-width, 72px)) !important;
+        max-width: 900px !important; /* 例：1段に12個並ぶ想定で 72px × 12 + α */
+        flex-wrap: nowrap !important;
+    }
+}
+  
