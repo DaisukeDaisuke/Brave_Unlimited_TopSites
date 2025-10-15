@@ -1,3 +1,10 @@
+/** >= Brave 1.83.112 */
+.top-site-tiles-mask {
+    display: block !important;
+}
+
+/** Fallback to older versions */
+
 [class^="GridPagesContainer-sc-"] {
     max-width: none !important;
     flex-wrap: wrap !important;
@@ -19,4 +26,3 @@
         flex-wrap: nowrap !important;
     }
 }
-  
